@@ -1,0 +1,18 @@
+{
+    "author": "Wu Zhangjin <wuzhangjin@gmail.com>",
+    "description": "@吴章金Falcon 毕业六年来之零星文字汇集，纪念三十而立，也致敬所有陪伴的亲友！",
+    "generator": "site",
+    "plugins" : [ "disqus", "google_code_prettify", "collapsible-menu", "maxiang", "livereload"],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "tinylab"
+        }
+    },
+    "links": {
+        "sidebar": {
+            "泰晓科技": "http://www.tinylab.org",
+            "山谷人家 ☜ 远方的茶园……": "http://weidian.com/?userid=317479118"
+        }
+    },
+    "title": "生活不止眼前的Bug"
+}
