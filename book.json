@@ -1,6 +1,6 @@
 {
     "author": "Wu Zhangjin <wuzhangjin@gmail.com>",
-    "description": "@吴章金Falcon 毕业六年来之零星文字汇集，纪念三十而立，也致敬所有陪伴的亲友！",
+    "description": "@吴章金Falcon 毕业六年来之零星文字汇集。值三十而立，致敬所有陪伴的亲友！",
     "generator": "site",
     "plugins" : [ "disqus", "google_code_prettify", "collapsible-menu", "maxiang", "livereload"],
     "pluginsConfig": {
