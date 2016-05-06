@@ -2,12 +2,6 @@
     "author": "Wu Zhangjin <wuzhangjin@gmail.com>",
     "description": "@吴章金Falcon 毕业六年来之零星文字汇集。值三十而立，致敬所有陪伴的亲友！",
     "generator": "site",
-    "plugins" : [ "disqus", "google_code_prettify", "collapsible-menu", "maxiang", "livereload"],
-    "pluginsConfig": {
-        "disqus": {
-            "shortName": "tinylab"
-        }
-    },
     "links": {
         "sidebar": {
             "泰晓科技": "http://www.tinylab.org",
