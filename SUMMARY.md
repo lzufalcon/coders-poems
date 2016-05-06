@@ -1,4 +1,3 @@
-* [修订历史](zh/history.md)
 * [北或南](zh/2011_north_or_south.md)
 * [下番禺](zh/2011_go_to_zhuhai.md)
 * [雪](zh/2012_snow.md)
