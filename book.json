@@ -4,8 +4,9 @@
     "generator": "site",
     "links": {
         "sidebar": {
+            "开源小店": "http://weidian.com/?userid=335178200",
             "泰晓科技": "http://www.tinylab.org",
-            "山谷人家 ☜ 远方的茶园……": "http://weidian.com/?userid=317479118"
+            "还有远方的茶园……": "http://weidian.com/?userid=317479118"
         }
     },
     "title": "生活不止眼前的Bug"
