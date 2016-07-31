@@ -2,6 +2,20 @@
     "author": "Wu Zhangjin <wuzhangjin@gmail.com>",
     "description": "@吴章金Falcon 毕业六年来之零星文字汇集。值三十而立，致敬所有陪伴的亲友！",
     "generator": "site",
+    "pdf": {
+        "fontFamily": "AR PL KaitiM GB",
+
+        "fontSize": 12,
+
+        "paperSize": "a4",
+
+        "margin": {
+            "right": 62,
+            "left": 62,
+            "top": 36,
+            "bottom": 36
+        }
+    },
     "links": {
         "sidebar": {
             "开源小店": "http://weidian.com/?userid=335178200",
