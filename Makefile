@@ -1,19 +1,18 @@
-all:
+all: pdf html
+
+html:
 	gitbook build
 
 pdf:
 	gitbook pdf
 
 read-pdf:
-	evince book.pdf
-
-read: read-html
+	firefox book.pdf &
 
 read-html:
-	chromium-browser _book/index.html
+	firefox _book/index.html &
+
+read: read-html read-pdf
 
 clean:
-	@rm -rf _book
-
-distclean: clean
-	@rm book.pdf
+	@rm -rf _book book.pdf
