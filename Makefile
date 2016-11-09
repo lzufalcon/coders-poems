@@ -6,11 +6,11 @@ html:
 pdf:
 	gitbook pdf
 
-read-pdf:
-	firefox book.pdf &
+read-pdf: book.pdf
+	(chromium-browser $^ 2>&1>/dev/null &)2>&1>/dev/null
 
-read-html:
-	firefox _book/index.html &
+read-html: _book/index.html
+	(chromium-browser $^ 2>&1>/dev/null &)2>&1>/dev/null
 
 read: read-html read-pdf
 
