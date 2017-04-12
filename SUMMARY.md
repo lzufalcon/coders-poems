@@ -10,6 +10,7 @@
 * [出发](zh/2014_take_action.md)
 * [秋夜](zh/2014_autumn_night.md)
 * [立冬](zh/2014_winter_begin.md)
+* [登黄杨山记](zh/2015_huangyang_mountain.md)
 * [家](zh/2015_home.md)
 * [春归](zh/2015_back_in_spring.md)
 * [江南水乡](zh/2015_water_village.md)
