@@ -1,10 +1,13 @@
 all: pdf html
 
-html:
+html: install
 	gitbook build
 
-pdf:
+pdf: install
 	gitbook pdf
+
+install:
+	gitbook install
 
 read-pdf: book.pdf
 	(chromium-browser $^ 2>&1 > /dev/null &) 2>&1 >/dev/null
