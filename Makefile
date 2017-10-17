@@ -1,21 +1,27 @@
-all: pdf html
+all: serve
 
-html: install
+html:
 	gitbook build
 
-pdf: install
+pdf:
 	gitbook pdf
 
-install:
-	gitbook install
+serve:
+	gitbook serve > .gitbook-serve.log 2>&1 &
 
-read-pdf: book.pdf
-	(chromium-browser $^ 2>&1 > /dev/null &) 2>&1 >/dev/null
+view:
+	chromium-browser http://localhost:4000 >/dev/null 2>&1 &
 
-read-html: _book/index.html
-	(chromium-browser $^ 2>&1 > /dev/null &) 2>&1 >/dev/null
+read: view
 
-read: read-html read-pdf
+read-pdf:
+	chromium-browser book*.pdf >/dev/null 2>&1 &
+
+read-html:
+	chromium-browser _book/index.html >/dev/null 2>&1 &
 
 clean:
-	@rm -rf _book book.pdf
+	@rm -rf _book
+
+distclean: clean
+	@rm book*.pdf
